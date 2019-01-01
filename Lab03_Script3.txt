@@ -3,7 +3,7 @@
 yum remove -y httpd php 
 yum install -y httpd24 php56 
 # Download Lab files 
-wget https://us-west-2-aws-training.s3.amazonaws.com/awsu-ilt/AWS-100-ARC/v5.2/lab-1webapp/scripts/lab1src.zip 
+wget https://us-west-2-aws-training.s3.amazonaws.com/awsu-bootcamp/AWS-100-ARCC2S/v1.0/lab-1-webapp/scripts/lab1src.zip
 unzip lab1src.zip -d /tmp/ 
 mv /tmp/lab1src/*.php /var/www/html/ 
 # Download and install the AWS SDK for PHP 
